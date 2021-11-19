@@ -1,0 +1,241 @@
+*
+    box-sizing: border-box
+h2,h4
+    font-family: Georgia, serif
+    font-weight: 400
+h3, .descr, nav
+    font-family: Arial, sans-serif
+    font-weight: 400
+.header
+    font-size: 30px
+    color: #50372b
+    font-style: italic
+    margin: 0
+.descr
+    font-size: 14px
+    color: #868686
+    margin-top: 14px
+    line-height: 18px
+body
+    margin: 0 auto
+main
+    max-width: 1000px
+    margin: 0 auto
+    background: linear-gradient( #e9e9e9, #ffffff)
+.logo
+    display: flex
+    flex-direction: row
+    justify-content: center
+    height: 220px
+    padding: 35px 0px
+    max-width: 900px
+    margin: 0 auto
+    &_item
+        display: flex
+        flex-direction: column
+        justify-content: center
+        flex-basis: 40%
+        h2
+            margin: 0
+            font-size: 60px
+            color: #50372b
+            font-style: italic
+        h3
+            margin: 0
+            font-size: 21px
+            color: #868686
+            margin-top: 10px
+        &_left
+            text-align: right
+            h3
+                text-align: right
+        &_center
+            flex-basis: 20%
+            h1
+                display: block
+                position: absolute
+                align-self: center
+                top: 30px
+                width: 166px
+                height: 170px
+                background: url(../icons/logo.png)
+                font-size: 0
+            h2
+                text-align: center
+                margin-top: -30px
+
+nav
+    position: relative
+    top: 10px
+    padding: 18px 23px
+    background: linear-gradient(#b28543, #b27824)
+    font-size: 18px
+    max-width: 900px
+    margin: 0 auto
+    .hamburger
+        display: none
+    ul
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        list-style: none
+        padding: 0px
+        margin: 0 auto
+        li
+            a
+                text-decoration: none
+                color: #fff
+                margin: 0 auto
+
+.history
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding: 40px 0px
+    border-bottom: 1px solid #868686
+    max-width: 900px
+    margin: 0 auto
+    &_text
+        max-width: 525px
+    &_man
+        width: 301px
+        height: 231px
+
+.articles
+    max-width: 900px
+    margin: 0 auto
+    padding: 40px 0 45px 0
+    border-bottom: 10px solid #6a6a6a
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    &_item
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        max-width: 250px
+
+footer
+    max-width: 900px
+    margin: 0 auto
+    padding: 30px 0 70px 0
+    h4
+        color: #6a6a6a
+
+@media (max-width: 900px)
+    .header
+        font-size: 25px
+    .descr
+        font-size: 14px
+    .logo
+        padding: 15px 0
+        height: 160px
+        &_item
+            h2
+                font-size: 35px
+            h3
+                font-size: 14px
+            &_center
+                flex-basis: 120px
+                h1
+                    background-size: 120px 120px
+                    width: 120px
+                    height: 120px
+                    margin: 0 auto
+                    top: 25px
+                h2
+                    margin-top: -20px
+
+    nav
+        padding: 5px 10px
+        font-size: 13px
+    
+    .history
+        flex-direction: column
+        padding: 20px 20px
+        &_text
+            order: 2
+            max-width: 100%
+        &_man
+            margin: 0 auto
+            margin-bottom: 10px
+            margin-top: 25px
+    
+    .articles
+        padding: 20px 20px 25px 20px
+        &_item
+            margin-right: 5px
+
+    footer
+        padding: 20px 25px 30px 25px
+
+@media (max-width: 480px)
+    .header
+        font-size: 17px
+        text-align: center
+    .descr
+        font-size: 12px
+        line-height: 16px
+    .logo
+        padding: 5px 0
+        height: 90px
+        &_item
+            h2
+                display: none
+            h3
+                display: none
+            &_center
+                flex-basis: 20%
+                h1
+                    background-size: 80px 80px
+                    width: 80px
+                    height: 80px
+                    margin: 0 auto
+                    top: 10px
+                h2
+                    margin-top: 0px
+
+    nav
+        padding: 17px 10px
+        font-size: 12px
+        .hamburger
+            display: block
+            position: absolute
+            right: 20px
+            top: 12px
+            width: 26px
+            height: 12px
+            span
+                display: block
+                height: 2px
+                width: 100%
+                background-color: #fff
+                margin-bottom: 3px
+        ul
+            display: none
+        
+    .history
+        padding: 10 15px
+        &_text
+            margin-top: 5px
+        &_man
+            margin-bottom: 0px
+            margin-top: 5px
+            width: 60%
+            height: 60%
+
+    .articles
+        padding: 5px 15px 15px 15px
+        flex-direction: column
+        &_item
+            max-width: 100%
+            h4
+                margin-top: 5px
+            div
+                margin-top: 5px
+
+    footer
+        padding: 10px 0 20px 0
+        .descr
+            text-align: center
+            margin-top: 5px

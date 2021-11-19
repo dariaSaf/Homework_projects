@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'DIN 1451 Std';
+    src: url('../fonts/DINMittelschriftStd.eot');
+    src: local('DIN 1451 Std Mittelschrift'), local('DINMittelschriftStd'),
+        url('../fonts/DINMittelschriftStd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DINMittelschriftStd.woff2') format('woff2'),
+        url('../fonts/DINMittelschriftStd.woff') format('woff'),
+        url('../fonts/DINMittelschriftStd.ttf') format('truetype'),
+        url('../fonts/DINMittelschriftStd.svg#DINMittelschriftStd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldMT.eot');
+    src: local('Arial Bold'), local('Arial-BoldMT'),
+        url('../fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff'),
+        url('../fonts/Arial-BoldMT.ttf') format('truetype'),
+        url('../fonts/Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS-Bold.eot');
+    src: local('Trebuchet MS Bold'), local('TrebuchetMS-Bold'),
+        url('../fonts/TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TrebuchetMS-Bold.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS-Bold.woff') format('woff'),
+        url('../fonts/TrebuchetMS-Bold.ttf') format('truetype'),
+        url('../fonts/TrebuchetMS-Bold.svg#TrebuchetMS-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/Tahoma.eot');
+    src: local('Tahoma'),
+        url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tahoma.woff2') format('woff2'),
+        url('../fonts/Tahoma.woff') format('woff'),
+        url('../fonts/Tahoma.ttf') format('truetype'),
+        url('../fonts/Tahoma.svg#Tahoma') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.eot');
+    src: local('Arial'), local('ArialMT'),
+        url('../fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff'),
+        url('../fonts/ArialMT.ttf') format('truetype'),
+        url('../fonts/ArialMT.svg#ArialMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('../fonts/TrebuchetMS.eot');
+    src: local('Trebuchet MS'), local('TrebuchetMS'),
+        url('../fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TrebuchetMS.woff2') format('woff2'),
+        url('../fonts/TrebuchetMS.woff') format('woff'),
+        url('../fonts/TrebuchetMS.ttf') format('truetype'),
+        url('../fonts/TrebuchetMS.svg#TrebuchetMS') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/Tahoma-Bold.eot');
+    src: local('Tahoma Bold'), local('Tahoma-Bold'),
+        url('../fonts/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tahoma-Bold.woff2') format('woff2'),
+        url('../fonts/Tahoma-Bold.woff') format('woff'),
+        url('../fonts/Tahoma-Bold.ttf') format('truetype'),
+        url('../fonts/Tahoma-Bold.svg#Tahoma-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sansa';
+    src: url('../fonts/Sansa-Normal.eot');
+    src: local('Sansa-Normal'),
+        url('../fonts/Sansa-Normal.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sansa-Normal.woff2') format('woff2'),
+        url('../fonts/Sansa-Normal.woff') format('woff'),
+        url('../fonts/Sansa-Normal.ttf') format('truetype'),
+        url('../fonts/Sansa-Normal.svg#Sansa-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansa';
+    src: url('../fonts/Sansa-Bold.eot');
+    src: local('Sansa-Bold'),
+        url('../fonts/Sansa-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sansa-Bold.woff2') format('woff2'),
+        url('../fonts/Sansa-Bold.woff') format('woff'),
+        url('../fonts/Sansa-Bold.ttf') format('truetype'),
+        url('../fonts/Sansa-Bold.svg#Sansa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansa';
+    src: url('../fonts/Sansa-Light.eot');
+    src: local('Sansa-Light'),
+        url('../fonts/Sansa-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sansa-Light.woff2') format('woff2'),
+        url('../fonts/Sansa-Light.woff') format('woff'),
+        url('../fonts/Sansa-Light.ttf') format('truetype'),
+        url('../fonts/Sansa-Light.svg#Sansa-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

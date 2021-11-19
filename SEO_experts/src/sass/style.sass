@@ -1,0 +1,481 @@
+*
+    box-sizing: border-box
+body
+    margin: 0 auto
+main
+    margin: 0 auto
+    max-width: 775px
+    background: url(../img/background.png) center (center / cover) no-repeat
+    background-color: #110d09
+header
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 230px
+    .hamburger
+        display: none
+    nav
+        max-width: 100%
+        background: linear-gradient( #100c09, #302621)
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-bottom: 1px solid #4b3416
+        padding: 15px 84px
+        ul
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            margin: 0 auto
+            padding: 0
+            li
+                margin: 0 auto
+                font-family: Sansa
+                font-size: 12px
+                font-weight: 700
+                color: #d2c9af
+                text-transform: uppercase
+                list-style: none
+                padding: 2px 33px
+                border-right: 1px solid #110c0b
+                box-shadow: 1px 0px 0px #382f28
+                &:last-child
+                    border-right: none
+                    box-shadow: none
+                    padding-right: 0px
+                &:first-child
+                    padding-left: 0px
+    .logo_wrapper
+        padding: 0 65px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 100%
+        .logo
+            display: flex
+            flex-direction: row
+            margin-top: 54px
+            margin-left: 3px
+            &_img
+                width: 40px
+                height: 40px
+            &_text
+                display: flex
+                flex-direction: column
+                margin-left: 4px
+                &_header
+                    font-family: Sansa
+                    font-size: 34px
+                    font-weight: 300
+                    color: #ffffff
+                    margin: 0 auto
+                span
+                    font-weight: 700
+                    color: #e89f39
+                &_subheader
+                    opacity: 0.5
+                    font-family: Sansa
+                    font-size: 20px
+                    font-weight: 300
+                    color: #ffffff
+                    margin: 0 auto
+                    margin-top: -8px
+    .man
+        position: relative
+        top: -10px
+        width: 350px
+        height: 254px
+.main
+    position: relative
+    background-color: #ffffff
+    min-height: 395px
+    max-width: 645px
+    margin: 0 auto
+    padding: 10px
+    border-radius: 2px
+    .services
+        background-color: #eeeeee
+        display: flex
+        justify-content: space-between
+        &_item
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            padding: 12px 30px 0 30px 
+            border-right: 2px solid #eeeeee
+            border-image: radial-gradient(#e5e5e5, #eeeeee)
+            border-image-slice: 1
+            max-width: 212px
+            &:last-child
+                border-right: none
+            &_img
+                &_1
+                    width: 76px
+                    height: 61px
+                    margin: 0 auto
+                &_2
+                    width: 67px
+                    height: 54px
+                    margin: 0 auto
+                &_3
+                    width: 58px
+                    height: 58px
+                    margin: 0 auto
+            &_header
+                font-family: Sansa
+                font-size: 14px
+                font-weight: 400
+                color: #424242
+                text-align: center
+                margin-top: 3px
+            &_subheader
+                font-family: Tahoma
+                font-size: 10px
+                line-height: 14px
+                font-weight: 400
+                color: #ae6125
+                text-align: center
+                margin-top: 7px
+            &_btn
+                width: 84px
+                height: 17px
+                background-color: #f2ecdb
+                border: none
+                font-family: Tahoma
+                font-size: 10px
+                font-weight: 400
+                color: #7a6154
+                margin: 0 auto
+                border-top-left-radius: 2px
+                border-top-right-radius: 2px
+                background: radial-gradient( #eee6d0, #f2ecdb)
+                background-color: #f2ecdb
+                box-shadow: inset 0px 0px 7px 0px #eee6d0
+                margin-top: 19px
+.main_bottom
+    padding: 20px 23px 8px 23px
+    display: flex
+    justify-content: space-between
+    .welcome
+        width: 50%
+        padding-right: 24px
+        border-right: 2px dotted #fff
+        background: linear-gradient(#fff,#fff) padding-box, linear-gradient(#fff, #c9c6c5, #fff) border-box      
+        &_header
+            font-family: Sansa
+            font-size: 18px
+            font-weight: 400
+            color: #424242
+            margin: 0
+        span
+            font-weight: 700
+            color: #e89f39
+        &_subheader
+            opacity: 0.5
+            font-family: 'DIN 1451 Std'
+            font-size: 10px
+            font-weight: 400
+            text-transform: uppercase
+            color: #7b7b7b
+            margin: 0
+        .people
+            margin-top: 18px
+            display: flex
+            justify-content: space-between
+            &_img
+                width: 106px
+                height: 65px
+            &_text
+                display: flex
+                flex-direction: column
+                margin-left: 14px
+                &_header
+                    font-family: 'Trebuchet MS'
+                    font-size: 11px
+                    font-weight: 700
+                    color: #ae6125
+                    margin: 0
+                    margin-top: 7px
+                &_descr
+                    font-family: Tahoma
+                    font-size: 10px
+                    font-weight: 400
+                    color: #848484
+                    margin-top: 2px
+        &_bottom
+            display: flex
+            justify-content: space-between
+            .arrows
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                margin-right: 9px
+                margin-top: 8px
+                &_img
+                    width: 6px
+                    height: 5px
+            &_text
+                font-family: Tahoma
+                font-size: 10px
+                line-height: 22px
+                font-weight: 400
+                text-decoration: underline
+                color: #b3ab94
+                margin-top: 8px
+    .news
+        width: 50%
+        padding-left: 24px
+        &_header
+            font-family: Sansa
+            font-size: 18px
+            font-weight: 400
+            color: #424242
+            margin: 0
+        span
+            font-weight: 700
+            color: #e89f39
+        &_subheader
+            opacity: 0.5
+            font-family: 'DIN 1451 Std'
+            font-size: 10px
+            font-weight: 400
+            text-transform: uppercase
+            color: #7b7b7b
+            margin: 0
+        &_item
+            padding-bottom: 11px
+            margin-top: 19px
+            border-bottom: 1px dotted black
+            &:last-child
+                margin-top: 5px
+                border-bottom: none
+            &_date
+                font-family: 'Trebuchet MS'
+                font-size: 11px
+                font-weight: 700
+                color: #ae6125
+                &::before
+                    content: ''
+                    display: inline-block
+                    width: 16px
+                    height: 16px
+                    background-image: url(../icons/calendar.png)
+                    margin-right: 9px
+                    transform: translateY(25%)
+            &_text
+                font-family: Tahoma
+                font-size: 10px
+                line-height: 14px
+                font-weight: 400
+                text-decoration: underline
+                color: #b3ab94
+                margin-top: 9px
+                padding-right: 14px
+.additional
+    display: flex
+    max-width: 645px
+    margin: 0 auto
+    background-color: #302621
+    &_item
+        width: 50%
+        padding: 33px 27px 18px 31px
+        &:first-child
+            border-right: 2px dotted #302621
+            background: linear-gradient(#302621,#302621) padding-box, linear-gradient(#302621, #665f5b, #302621) border-box      
+    &_top
+        display: flex
+        &_img
+            &_1
+              width: 56px
+              height: 45px  
+            &_2
+               width: 41px
+               height: 41px
+        &_text
+            display: flex
+            flex-direction: column
+            margin-left: 6px
+            &_header
+                font-family: Sansa
+                font-size: 18px
+                font-weight: 400
+                color: #d2c9af
+            &_subheader
+                opacity: 0.5
+                font-family: 'DIN 1451 Std'
+                font-size: 10px
+                font-weight: 400
+                text-transform: uppercase
+                color: #ffffff
+    &_text
+        margin-top: 16px
+        &_header
+            font-family: 'Trebuchet MS'
+            font-size: 11px
+            font-weight: 700
+            color: #ffffff
+        &_descr
+            font-family: Tahoma
+            font-size: 10px
+            font-weight: 400
+            color: #848484
+            &_underline
+                margin-top: 17px
+                text-decoration: underline
+    &_btn
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 74px
+        height: 13px
+        border: none
+        background-image: linear-gradient(0.0deg, #ee9f04 0%, #f6ac0f 100%)
+        font-family: Tahoma
+        font-size: 10px
+        font-weight: 400
+        color: #ffffff
+        border-radius: 2px
+        position: relative
+        left: 100%
+        transform: translateX(-100%)
+        margin-top: 11px
+footer
+    padding: 21px 65px 23px 65px
+    ul
+        display: flex
+        justify-content: center
+        margin: 0
+        padding: 0
+        li
+            font-family: 'Trebuchet MS'
+            font-size: 11px
+            font-weight: 400
+            color: #b3ab94
+            list-style: none
+            border-right: 1px solid #b3ab94
+            padding-right: 5px
+            padding-left: 5px
+            &:last-child
+                border-right: none
+                padding-right: 0
+
+    .footer_copyright
+        font-family: 'Trebuchet MS'
+        font-size: 11px
+        font-weight: 400
+        color: #b3ab94
+        font-size: 10px
+        text-align: center
+        margin-top: 5px
+        
+@media (max-width: 1024px)
+    header
+        height: 200px
+        nav
+            ul
+                flex-direction: column
+                li
+                    padding: 2px 0
+                    border-right: none
+                    box-shadow: none      
+        .logo_wrapper
+            height: 80px
+            padding: 10px 65px
+            .man
+                display: none
+            .logo
+                margin: 0 auto
+    .main
+        .services
+            padding: 12px 10px 0 10px
+            &_item
+                padding: 0 15px
+                &_btn
+                    margin-top: 10px
+                    width: 95px
+                    height: 23px
+        &_bottom
+            flex-direction: column
+            .welcome
+                width: 100%
+                padding: 0
+                padding-bottom: 15px
+                border-right: none
+                border-bottom: 2px dotted #fff
+                background: linear-gradient(#fff,#fff) padding-box, linear-gradient(to right, #fff, #c9c6c5, #fff) border-box
+                .people
+                    &_img
+                        width: 127px
+                        height: 78px
+            .news
+                width: 100%
+                padding: 0
+                padding-top: 15px
+    .additional
+        &_item
+            padding: 25px 30px
+        &_top
+            &_img_1
+                width: 61px
+                height: 49px
+            &_img_2
+                width: 50px
+                height: 50px
+    footer
+        padding: 21px 30px 23px 30px
+        ul
+            li
+                font-size: 12px
+        .footer_copyright
+            font-size: 12px
+
+    @media (max-width: 480px)
+        header
+            height: 55px
+            nav
+                display: none
+            .hamburger
+                display: block
+                position: absolute
+                right: 30px
+                top: 20px
+                width: 26px
+                height: 12px
+                span
+                    display: block
+                    height: 2px
+                    width: 100%
+                    background-color: #fff
+                    margin-bottom: 3px
+            .logo_wrapper
+                padding: 10px 30px
+                .logo
+                    margin: 0 0
+                    &_img
+                        height: 30px
+                        width: 30px
+                    &_text
+                        &_header
+                            font-size: 25px
+                        &_subheader
+                            display: none
+        .main
+            .services
+                flex-direction: column
+                &_item
+                    max-width: 460px
+                    &_header
+                        font-size: 14px
+                    &_subheader
+                        font-size: 12px
+        .additional
+            flex-direction: column
+            &_item
+                width: 100%
+                &:first-child
+                    border-right: none
+                    border-bottom: 2px dotted #302621
+                    background: linear-gradient(#302621,#302621) padding-box, linear-gradient(to right, #302621, #665f5b, #302621) border-box    
+        footer
+              ul
+                  flex-wrap: wrap
+                  li
+                      
